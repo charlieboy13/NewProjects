@@ -6,6 +6,22 @@
  *    user zoom.
  */
 
+ .top-navigation {
+    background-color: #fff;
+}
+.top-navigation > .content {
+    width: 970px;
+    height: 70px;
+    margin: 0 auto;
+}
+
+ body {
+    background-color: LightGray;
+}
+div {
+    border: 1px solid Chocolate;
+}
+
 html {
   font-family: sans-serif; /* 1 */
   -ms-text-size-adjust: 100%; /* 2 */
