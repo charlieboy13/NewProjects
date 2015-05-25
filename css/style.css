@@ -6,6 +6,54 @@
  *    user zoom.
  */
 
+
+/*
+*Logo for navigation Area
+*/
+.logo{
+    margin-left: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  /*
+  *Top Navigation Area
+  */
+
+.top-navigation{
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+  background-color: white;
+}
+.top-navigation .links {
+    float: right;
+    margin-right: 50px;
+    font-family: 'Roboto', sans-serif;
+    color: #838994;
+    font-size: 15px;
+    margin-top: 25px;
+   -webkit-font-smoothing: antialiased;
+}
+.top-navigation .links li {
+    display: inline-block;
+    margin-right: 25px;
+    margin-left: 5px;
+    
+}
+.top-navigation .links .active {
+    color: #4c5058;
+    font-weight: 500;
+}
+.top-navigation .links li:hover {
+    cursor: pointer;
+    color: #4c5058;
+}
+
+/*
+*Mid Section of Introduction
+*/
+
  .introduction{
     background-image: url("C:/Projects/startup-landing-page-clone/images/first-background copy.jpg");  
     background-position: center bottom;
@@ -38,6 +86,9 @@
   margin-top: 1.563rem;
 }
 
+/*
+*Center Button 
+*/
 .big-button:hover{
     background-color: #d9400e;
     border-color: #cf3d0e;
@@ -57,43 +108,16 @@
     font-size: 1.125rem;
   }
 
-.logo{
-    margin-left: 100px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-.top-navigation .links {
-    float: right;
-    margin-right: 50px;
-    font-family: 'Roboto', sans-serif;
-    color: #838994;
-    font-size: 15px;
-    margin-top: 25px;
-   -webkit-font-smoothing: antialiased;
-}
-.top-navigation .links li {
-    display: inline-block;
-    margin-right: 25px;
-    margin-left: 5px;
-    
-}
-.top-navigation .links .active {
-    color: #4c5058;
-    font-weight: 500;
-}
-.top-navigation .links li:hover {
-    cursor: pointer;
-    color: #4c5058;
-}
 
 /**
  * The Three Case Images
- */
-.cases {
+  */
+
+ .cases {
     background-color: #fff;
     overflow: hidden;
     padding-bottom: 5rem;
-}
+ }
 .cases .content {
     margin-top: 7.875rem;
     padding: none;
@@ -106,8 +130,8 @@
     font-weight: 300;
 }
 .cases .devices > li {
-    width: 33.3333333%;
-    float:left;
+    width: 33%;
+    float: left;
 }
 .cases .devices h3 {
     font-weight: 400;
@@ -118,6 +142,48 @@
     font-weight: 300;
     font-size: 1.313rem;
 }
+/**
+ * Footer
+ */
+.social {
+    background-color: #fff;
+    overflow: auto;
+    padding-bottom: 9.375rem;
+    text-align: center;
+}
+.social hr {
+    border: 0;
+    border-top: 3px solid #eaebec;
+    margin: 1.313rem 0;
+}
+.social .icons > li {
+    border-radius: 1.25rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+    margin: 1.25rem 5px;
+    border: 1px solid #eaebec;
+    padding: 0.625rem 0;
+    text-align: center;
+}
+.social .icons > li:hover {
+    cursor: pointer;
+}
+.social .twitter {
+    color: #55acee;
+}
+.social .facebook {
+    color: #4c66a4;
+}
+.social .instagram {
+    color: #3f729b;
+}
+.social .copy {
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: #838994;
+}
+
 
 
 html {
